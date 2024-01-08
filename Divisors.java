@@ -3,6 +3,7 @@
  */
 public class Divisors {
 	public static void main (String[] args) {
+		// identations! all the code below should be in the right
 	int x = Integer.parseInt(args[0]);
 	int divisor = 1;
 	

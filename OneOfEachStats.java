@@ -26,6 +26,8 @@ public class OneOfEachStats {
 	int avgKid = 0;
 	
 	for (int i = 0; i < T; i++) {
+		// Declare the fields you use only in this scope here (in this scope)
+		// the rule of thumb is to declare variables close to the place in the code in which it is used
 		isfamily = false;
          kids = 0;
          genders = " ";

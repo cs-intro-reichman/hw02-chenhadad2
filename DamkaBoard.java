@@ -4,8 +4,9 @@
 public class DamkaBoard {
 	public static void main(String[] args) {
 		int x = Integer.parseInt(args[0]);
-
-	for (int i = 0; i < x; i++) {
+		// TODO: fix identations! It's a big mess!
+	
+	for (int i = 0; i < x; i++) { // TODO: i, j, x - bad names. Better would be row, col and inputNum
 		 System.out.println();
 		 for (int j = 0; j < x; j++) {
 			 if (i % 2 == 0) {

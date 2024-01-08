@@ -7,9 +7,17 @@ public class InOrder {
         int x = (int) (Math.random() * 10);
 		int y = 0;
         System.out.print(x);
-		
+		//TODO: here you have also a big mess with identations, the code should be clean and readable		
+
+	// TODO: what is this? it do nothing. The code should be clean.
     if (x < 10) {
 	} 
+
+		/*
+		 * Wrong solution! 
+		 * It was asked to stop generate numbers after descreasing number was found
+		 * You just stop after 10 attempts (why 10?)
+		 */
 		for (int i = 0; i<10; i++) {
 			y = (int) (Math.random() * 10);
 			if (y >= x){
